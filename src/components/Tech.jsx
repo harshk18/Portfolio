@@ -8,6 +8,10 @@ import { technologies } from "../constants";
 import React from "react";
 
 const Tech = () => {
+  const icons = Object.values(technologies).map(
+    (technology) => technology.icon
+  );
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -15,12 +19,8 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Skills.</h2>
       </motion.div>
 
-      <div className="mt-10 flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
-          </div>
-        ))}
+      <div className='w-full h-[75vh] mx-auto'>
+          <BallCanvas icons={icons} />
       </div>
     </>
   );
