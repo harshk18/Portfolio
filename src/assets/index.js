@@ -22,6 +22,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import materialui from "./tech/materialui.png";
+import firebase from "./tech/firebase.png";
 
 import SchoolLogo from "./institute/SchoolLogo.png";
 import MaitLogo from "./institute/MaitLogo.png";
@@ -56,6 +58,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  materialui,
+  firebase,
   SchoolLogo,
   MaitLogo,
   meals,

@@ -16,6 +16,8 @@ import {
   nodejs,
   threejs,
   git,
+  materialui,
+  firebase,
   SchoolLogo,
   MaitLogo,
   meals,
@@ -117,6 +119,14 @@ const technologies = [
     name: "Github",
     icon: github2,
   },
+  {
+    name: "Material UI",
+    icon: materialui,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  }
 ];
 
 const education = [

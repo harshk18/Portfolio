@@ -53,7 +53,7 @@ const BallCanvas = ({ icons }) => {
               <Ball
                 key={icon}
                 icon={icon}
-                position={[col * 3 - 4, row * 3 + -2, -9]}
+                position={[col * 4 - 4, row * 3 + -2, -9]}
               />
             );
           })}
