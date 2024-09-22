@@ -1,7 +1,7 @@
 import logo from "./logo.png";
 import web from "./web.png";
 import software from "./software.png";
-import backend from "./backend.png";
+import mobileapp from "./mobileapp.png";
 import sport from "./sport.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
@@ -25,9 +25,13 @@ import threejs from "./tech/threejs.svg";
 import materialui from "./tech/materialui.png";
 import firebase from "./tech/firebase.png";
 
+import dataknobs from "./company/dataknobs.png";
+import algofast from "./company/algofast.png";
+
 import SchoolLogo from "./institute/SchoolLogo.png";
 import MaitLogo from "./institute/MaitLogo.png";
 
+import purelyprecious from "./purelyprecious.png";
 import meals from "./meals.gif";
 import youtube from "./youtube.gif";
 import codepen from "./codepen.png";
@@ -38,7 +42,7 @@ export {
   logo,
   web,
   software,
-  backend,
+  mobileapp,
   sport,
   github,
   linkedin,
@@ -60,8 +64,11 @@ export {
   threejs,
   materialui,
   firebase,
+  dataknobs,
+  algofast,
   SchoolLogo,
   MaitLogo,
+  purelyprecious,
   meals,
   youtube,
   codepen,

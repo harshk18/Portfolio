@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close, github, linkedin } from "../assets";
+import resume from "../assets/Harsh_Resume.pdf"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -82,6 +83,12 @@ const Navbar = () => {
               }
             />
           </div>
+
+          <button className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href={resume} download="Harsh_Resume.pdf">
+              My Resume
+            </a>
+          </button>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">

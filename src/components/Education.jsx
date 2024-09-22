@@ -53,8 +53,8 @@ const Education = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My personal journey</p>
-        <h2 className={styles.sectionHeadText}>Education.</h2>
+        <p className={`${styles.sectionSubText} text-center`}>My personal journey</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Education.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

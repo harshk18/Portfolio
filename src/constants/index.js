@@ -1,7 +1,7 @@
 import {
   web,
   software,
-  backend,
+  mobileapp,
   sport,
   cpp,
   github2,
@@ -18,8 +18,11 @@ import {
   git,
   materialui,
   firebase,
+  dataknobs,
+  algofast,
   SchoolLogo,
   MaitLogo,
+  purelyprecious,
   meals,
   youtube,
   codepen,
@@ -48,7 +51,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
@@ -56,8 +59,8 @@ const services = [
     icon: software,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Mobile App Developer",
+    icon: mobileapp,
   },
   {
     title: "Sports Enthusiast",
@@ -126,7 +129,32 @@ const technologies = [
   {
     name: "Firebase",
     icon: firebase,
-  }
+  },
+];
+
+const experiences = [
+  {
+    title: "Frontend Developer Intern",
+    company_name: "DataKnobs",
+    icon: dataknobs,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Jan 2024",
+    points: [
+      "Enhanced web application performance by implementing 14 new features, boosting user engagement by 20%.",
+      "Achieved a 100% on-time project completion rate and maintained an average code review approval rate of 95% demonstrating strong time management and code quality assurance skills.",
+    ],
+  },
+  {
+    title: "SDE",
+    company_name: "Algofast India Pvt. Ltd.",
+    icon: algofast,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - Present",
+    points: [
+      "Developed software solutions for MSMEs, primarily using TypeScript, Next JS, Material UI, and MariaDB on a Linux environment with VSCode and GitHub.",
+      "Contributed to CRM development and trained in React Native, participating in web and mobile app development.",
+    ],
+  },
 ];
 
 const education = [
@@ -157,16 +185,46 @@ const education = [
     iconBg: "#E6DEDD",
     date: "2020 -  2024",
     points: [
-      "Pursuing B.Tech in Electronics and Communication Engineering(ECE) with an Aggregate CGPA of 9.321",
+      "Completed my B.Tech in Electronics and Communication Engineering(ECE) with an Aggregate CGPA of 9.19",
     ],
   },
 ];
 
 const projects = [
   {
+    name: "Purely Precious",
+    description:
+      "A custom eCommerce platform built using React, Redux, Node, Express, and MongoDB. This project features a fully functional shopping cart, user authentication, payment integration, and an admin dashboard for managing products, orders, and users.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: purelyprecious,
+    deployment_link: "https://purely-precious.onrender.com/",
+    source_code_link: "https://github.com/harshk18/Purely-Precious",
+  },
+  {
     name: "React Meals",
     description:
-      "User-friendly food ordering website: homepage displays items, Add button updates cart. Cart shows ordered items and total cost. Users can modify orders by adding/removing items. Checkout with Order button, fill customer details in form, Confirm button sends order",
+      "User-friendly food ordering website: homepage displays items, Add button updates cart. Cart shows ordered items and total cost. Users can modify orders by adding/removing items. Checkout with Order button, fill customer details in form, Confirm button sends order.",
     tags: [
       {
         name: "React",
@@ -276,4 +334,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, education, projects };
+export { services, technologies, experiences, education, projects };

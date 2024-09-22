@@ -40,11 +40,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my portfolio website! I am a dedicated engineering
-        undergraduate in my pre-final year, specializing in C/C++, data
-        structures, algorithms, and front-end web development with ReactJS,
-        NextJS, and TypeScript. With a fervent curiosity and a hunger for
-        knowledge, I am constantly seeking new opportunities to expand my
+        Welcome to my portfolio website! I am a dedicated Software Development Engineer,
+        specializing in Full Stack Web Development through MERN stack. With a fervent curiosity
+        and a hunger for knowledge, I am constantly seeking new opportunities to expand my
         skillset. The ever-evolving world of technology never fails to amaze me,
         and my ultimate goal is to utilize my expertise to create solutions that
         truly enhance people's lives.
